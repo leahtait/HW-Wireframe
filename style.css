@@ -9,44 +9,40 @@ body {
 
 header {
     background: #ebebeb;
-    padding: 20px 100px 0px 100px;
-    width: 960px;
-    float: left;
+    padding: 20px 100px 1px 100px;
+    width: 735px;
     text-align: center;
+
+
 }
 
 nav {
     background: #ebebeb;
     text-align: center;
     padding: 20px 100px 20px 100px;
-    float: left;
-    width: 960px;
-    margin: 20px 0px 20px 0px;
+    width: 735px;
+    margin: 10px 0px 10px 0px;
 }
 
 section {
     background: #ebebeb;
     width: 495px;
-    float: left;
-    padding: 20px;
     text-align: center;
     margin: 20px 0px 20px 0px;
 }
 
 aside {
     background: #ebebeb;
-    float: right;
-    width: 495px;
-    clear: both;
+    width: 380px;
     padding: 20px;
-    margin-left: 30px;
+    margin: 20px;
     text-align: center;
 }
 
 footer {
     background: #ebebeb;
     clear: both;
-    width: 960px;
+    width: 735px;
     text-align: center;
     padding: 20px 100px 20px 100px;
     margin: 20px 0px 20px 0px;
@@ -58,8 +54,7 @@ article {
     background: #777;
     padding: 20px;
     text-align: center;
-    padding: 20px 100px 20px 100px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px;
 }
 
 .article-text {
@@ -79,4 +74,29 @@ p {
     background: #ebebeb;
     text-align: center;
     padding: 20px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 960px;
+}
+
+.headertext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.sectiontext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.all {
+    margin-left: 50%;
 }
